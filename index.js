@@ -1,21 +1,17 @@
 function isPalindrome(word) {
-	// Write your algorithm here
-}
-
-// Add your pseudocode here
-function isPalindrome(string) {
-	let rev = string.split("");
+	let rev = word.split("");
 	console.log(rev);
 	let reservedString = rev.reverse().join("");
 	console.log(reservedString);
-	if (string === reservedString) {
+	if (word === reservedString) {
 		return true;
 	} else {
 		return false;
 	}
 }
 
-isPalindrome("madam");
+// Add your pseudocode here
+
 //Add written explanation of your solution here
 
 // You can run `node index.js` to view these console logs
